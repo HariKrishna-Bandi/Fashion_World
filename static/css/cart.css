@@ -1,0 +1,544 @@
+.Header {
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.FashionWorld {
+    width: 297px;
+    height: 40px;
+    left: 99px;
+    top: 25px;
+    position: absolute;
+    color: #111110;
+    font-size: 30px;
+    font-family: Monomaniac One;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.ShopButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 8px;
+    left: 933px;
+    top: 42px;
+    position: absolute;
+    background: white;
+    border-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Shop {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.WhoWeAre {
+    left: 1005px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.MyProfile {
+    left: 1111px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.CartButton {
+    padding-top: 13.50px;
+    padding-bottom: 13.50px;
+    padding-left: 25px;
+    padding-right: 24px;
+    left: 1218px;
+    top: 32px;
+    position: absolute;
+    background: #161714;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Cart3 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.ShoppingCart {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white
+}
+
+.item1 {
+    width: 821px;
+    height: 159px;
+    left: 96px;
+    top: 282px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title1 {
+    left: 202px;
+    top: 28px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p11 {
+    left: 716px;
+    top: 24px; position: absolute;
+    text-align: right; color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p12 {
+    left: 203px;
+    top: 54px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.InputField1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 8px;
+    left: 202px;
+    top: 87px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.06) solid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex
+}
+
+.Pcs1 {
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Icon1 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+}
+
+.saipallavi {
+    width: 189px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.item2 {
+    width: 821px;
+    height: 159px;
+    left: 96px;
+    top: 457px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title2 {
+    left: 208px;
+    top: 24px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p21 {
+    left: 208px;
+    top: 53px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.InputField2 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 8px;
+    left: 208px;
+    top: 91px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.06) solid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 31px;
+    display: inline-flex
+}
+
+.Pcs2 {
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Icon2 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+}
+
+.p22 {
+    left: 716px;
+    top: 24px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.alluarjun {
+    width: 193px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.item3 {
+    width: 821px;
+    height: 159px;
+    left: 96px;
+    top: 637px;
+    position:
+    absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title3 {
+    left: 208px;
+    top: 24px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p31 {
+    left: 208px;
+    top: 54px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.InputField3 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 8px;
+    left: 208px;
+    top: 84px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px rgba(0, 0, 0, 0.06) solid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 31px; display: inline-flex
+}
+
+.Pcs3 {
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Icon3 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex
+}
+
+.p32 {
+    left: 720px;
+    top: 24px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.nitya {
+    width: 192px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.Summary {
+    width: 395px;
+    height: 318px;
+    left: 949px;
+    top: 301px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.OrderSummary {
+    left: 24px;
+    top: 24px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.Subtotal {
+    left: 24px;
+    top: 82px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.p9698 {
+    left: 305px;
+    top: 82px;
+    position: absolute;
+    text-align: right
+}
+
+.Shipping {
+    left: 24px;
+    top: 119px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.p70 {
+    left: 329px;
+    top: 119px;
+    position: absolute;
+    text-align: right
+}
+
+.Tax {
+    left: 24px;
+    top: 156px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Total {
+    left: 24px;
+    top: 193px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.p9770 {
+    left: 318px;
+    top: 190px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.PageHeading {
+    width: 1440px;
+    height: 149px;
+    left: 0px;
+    top: 112px;
+    position: absolute;
+    background: white
+}
+
+.Items {
+    left: 301px;
+    top: 90px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.Divider {
+    width: 1248px;
+    height: 0px;
+    left: 96px;
+    top: 149px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px #E6E6E6 solid
+}
+
+.Button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 16px;
+    width: 350px;
+    left: 24px;
+    top: 246px;
+    position: absolute;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+    display: inline-flex
+}
+
+.ContinueToPayment {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}

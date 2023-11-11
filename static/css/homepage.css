@@ -1,0 +1,204 @@
+.Homepage {
+    width: 1440px;
+    height: 2092px;
+    position: relative;
+    background: white;
+}
+
+.caption {
+    width: 1020px;
+    left: 217px;
+    top: 255px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: Oleo Script;
+    font-weight: 400;
+    line-height: 76.80px;
+    word-wrap: break-word
+}
+
+.Button {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    left: 607px;
+    top: 466px;
+    position: absolute;
+    background: #151514;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.BrowseOurShop {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.paragraph {
+    width: 843px;
+    left: 341px;
+    top: 1633px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+.WhatWeBelieve {
+    width: 181px;
+    left: 171px;
+    top: 1640px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22.40px;
+    letter-spacing: 0.56px;
+    word-wrap: break-word
+}
+
+.img2 {
+    width: 468px;
+    height: 832px;
+    left: 203px;
+    top: 671px;
+    position: absolute;
+    border-radius: 6px
+}
+
+.img3 {
+    width: 434px;
+    height: 317px;
+    left: 750px;
+    top: 1141px;
+    position: absolute
+}
+
+.FashionWorld {
+    width: 297px;
+    height: 40px;
+    left: 99px;
+    top: 25px;
+    position: absolute;
+    color: #111110;
+    font-size: 30px;
+    font-family: Monomaniac One;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.ShopButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 8px;
+    left: 933px;
+    top: 42px;
+    position: absolute;
+    background: white;
+    border-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Shop {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.WhoWeAre {
+    left: 1005px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.MyProfile {
+    left: 1111px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.CartButton {
+    padding-top: 13.50px;
+    padding-bottom: 13.50px;
+    padding-left: 25px;
+    padding-right: 24px;
+    left: 1218px;
+    top: 32px;
+    position: absolute;
+    background: #161714;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Cart3 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.CasualWear {
+    left: 345px;
+    top: 629px;
+    position: absolute;
+    text-align: center
+}
+
+.TraditionalWear {
+    left: 847px;
+    top: 1087px;
+    position: absolute;
+    text-align: center
+}
+
+.KidsWear {
+    left: 893px;
+    top: 1470px;
+    position: absolute;
+    text-align: center
+}

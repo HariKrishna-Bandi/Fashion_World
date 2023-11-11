@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion World payment</title>
+    <link href="{% static 'css/payment.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="Header">
+        <div class="FashionWorld">🗺︎FASHION WORLD</div>
+    </div>
+    <div class="caption">Choose method of payment</div>
+    <div class="cards">
+        <input type="radio" class="rad1" name="deb">
+        <div class="cardname">Debit/Credit Card</div>
+    </div>
+    <div class="upiapp">
+        <input type="radio" class="rad2" name="app">
+        <div class="pp">Phone pay/ Google Pay/ Paytm</div>
+    </div>
+    <div class="upi">
+        <input type="radio" class="rad3" name="upi">
+        <div class="upi1">UPI</div>
+    </div>
+    <form action="orderedpage" method="post">
+        {% csrf_token %}
+        <button class="placebtn">
+            <div class="place">Place Your Order</div>
+        </button>
+    </form>
+    <form action="productpage" method="post">
+        {% csrf_token %}
+        <button class="backbtn">
+            <div class="goback">Go Back to shopping</div>
+        </button>
+    </form>
+</body>
+</html>

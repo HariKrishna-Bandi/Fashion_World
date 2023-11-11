@@ -1,0 +1,472 @@
+.ProductPage {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white
+}
+
+.PageHeading {
+    width: 1245px;
+    height: 149px;
+    left: 96px;
+    top: 112px;
+    position: absolute;
+    background: white
+}
+
+.DefaultChip {
+    padding-top: 9.50px;
+    padding-bottom: 9.50px;
+    padding-left: 9px;
+    padding-right: 8px;
+    left: 775px;
+    top: 56px;
+    position: absolute;
+    background: #141413;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Search {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Categories {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-family: Newsreader;
+    font-weight: 400;
+    line-height: 38.40px;
+    word-wrap: break-word
+}
+
+.Divider {
+    width: 1053px;
+    height: 0px;
+    left: 96px;
+    top: 149px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px #E6E6E6 solid
+}
+
+.MenSWear {
+    left: 67px;
+    top: 67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Newsreader;
+    font-weight: 400;
+    line-height: 28.80px;
+    word-wrap: break-word
+}
+
+.WomenSWear {
+    left: 201px;
+    top: 67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Newsreader;
+    font-weight: 400;
+    line-height: 28.80px;
+    word-wrap: break-word
+}
+
+.KidsWear {
+    left: 360px;
+    top: 67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Newsreader;
+    font-weight: 400;
+    line-height: 28.80px;
+    word-wrap: break-word
+}
+
+.More {
+    left: 665px;
+    top: 67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Newsreader;
+    font-weight: 400;
+    line-height: 28.80px;
+    word-wrap: break-word
+}
+
+.TraditionalWear {
+    left: 482px;
+    top: 67px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Newsreader;
+    font-weight: 400;
+    text-decoration: line-through;
+    line-height: 28.80px;
+    word-wrap: break-word
+}
+
+.Header {
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.FashionWorld {
+    width: 297px;
+    height: 40px;
+    left: 99px;
+    top: 25px;
+    position: absolute;
+    color: #111110;
+    font-size: 30px;
+    font-family: Monomaniac One;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.ShopButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 8px;
+    left: 933px;
+    top: 42px;
+    position: absolute;
+    background: white;
+    border-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Shop {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.WhoWeAre {
+    left: 1005px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.MyProfile {
+    left: 1111px;
+    top: 46px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.CartButton {
+    padding-top: 13.50px;
+    padding-bottom: 13.50px;
+    padding-left: 25px;
+    padding-right: 24px;
+    left: 1218px;
+    top: 32px;
+    position: absolute;
+    background: #161714;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.Cart3 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.sec1 {
+    width: 395px;
+    height: 444px;
+    left: 96px;
+    top: 301px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title1 {
+    left: 24px;
+    top: 320px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p4999 {
+    left: 24px;
+    top: 350px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p7999 {
+    width: 66px;
+    height: 20px;
+    left: 124px;
+    top: 354px;
+    position: absolute;
+    color: #181717;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: line-through;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Off1 {
+    width: 66px;
+    height: 20px;
+    left: 198px;
+    top: 356px;
+    position: absolute;
+    color: #181717;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 18.20px;
+    word-wrap: break-word
+}
+
+.SpecialPrice1 {
+    left: 24px;
+    top: 392px;
+    position: absolute;
+    color: #6D6D6D;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.img1 {
+    width: 395px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.sec2 {
+    width: 395px;
+    height: 444px;
+    left: 521px;
+    top: 301px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title2 {
+    width: 378px;
+    height: 25px;
+    left: 23px;
+    top: 320px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p3450 {
+    left: 24px;
+    top: 366px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p5000 {
+    width: 66px;
+    height: 20px;
+    left: 122px;
+    top: 370px;
+    position: absolute;
+    color: #181717;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    text-decoration: line-through;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.Off2 {
+    width: 66px;
+    height: 20px;
+    left: 188px;
+    top: 372px;
+    position: absolute;
+    color: #181717;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 18.20px;
+    word-wrap: break-word
+}
+
+.SpecialPrice2 {
+    left: 24px;
+    top: 392px;
+    position: absolute;
+    color: #6D6D6D;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.img2 {
+    width: 401px;
+    height: 310px;
+    left: -6px;
+    top: 0px;
+    position: absolute
+}
+
+.sec3 {
+    width: 395px;
+    height: 444px;
+    left: 959px;
+    top: 301px;
+    position: absolute;
+    background: #FAFAF5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px #E6E6E6 solid
+}
+
+.title3 {
+    width: 364px;
+    left: 24px;
+    top: 320px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p1249 {
+    left: 24px;
+    top: 366px;
+    position: absolute;
+    color: #426B1F;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.p2500 {
+    width: 66px; height: 20px; left: 122px; top: 370px; position: absolute; color: #181717; font-size: 16px; font-family: Inter; font-weight: 400; text-decoration: line-through; line-height: 20.80px; word-wrap: break-word
+}
+
+.Off3 {
+    width: 66px;
+    height: 20px;
+    left: 198px;
+    top: 370px;
+    position: absolute;
+    color: #181717;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 18.20px;
+    word-wrap: break-word
+}
+
+.SpecialPrice3 {
+    left: 24px;
+    top: 392px;
+    position: absolute;
+    color: #6D6D6D;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.img3 {
+    width: 420px;
+    height: 318px;
+    left: -15px;
+    top: 0px;
+    position: absolute
+}

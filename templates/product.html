@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion world products</title>
+    <link href="{% static 'css/product.css' %}" rel="stylesheet">
+</head>
+<body>
+<div class="ProductPage">
+  <div class="PageHeading">
+    <div class="DefaultChip">
+      <div class="Search">🔍Search</div>
+    </div>
+    <div class="Categories">Categories</div>
+    <div class="Divider"></div>
+    <div class="MenSWear">Men’s wear</div>
+    <div class="WomenSWear">women’s wear</div>
+    <div class="KidsWear">Kids wear</div>
+    <div class="More">More ﹀</div>
+    <div class="TraditionalWear">Traditional wear</div>
+  </div>
+  <div class="Header">
+    <div class="FashionWorld">🗺︎FASHION WORLD</div>
+
+<!--    <form action="productpage" method="post">-->
+<!--      {% csrf_token %}-->
+<!--      <button class="ShopButton">-->
+<!--        <div class="Shop">Shop</div>-->
+<!--      </button>-->
+<!--    </form>-->
+
+    <div class="WhoWeAre">Who we are</div>
+    <div class="MyProfile" style="">My profile</div>
+
+    <form action="cartpage" method="post">
+      {% csrf_token %}
+      <button class="CartButton">
+        <div class="Cart3">🛒Cart (3)</div>
+      </button>
+    </form>
+
+  </div>
+
+  <div class="sec1">
+    <div class="title1">Woven Kanjivaram Art Silk Saree</div>
+    <div class="p4999">₹4999/-</div>
+    <div class="p7999">₹7999/-</div>
+    <div class="Off1">50% off</div>
+    <div class="SpecialPrice1">Special price</div>
+    <img class="img1" src="{% static 'images/sai_pallavi.png' %}" />
+  </div>
+  <div class="sec2">
+    <div class="title2">White Embroidered Kurta Pajama For Men</div>
+    <div class="p3450">₹3450/-</div>
+    <div class="p5000">₹5000/-</div>
+    <div class="Off2">20% off</div>
+    <div class="SpecialPrice2">Special price</div>
+    <img class="img2" src="{% static 'images/Allu_arjun.png' %}" />
+  </div>
+  <div class="sec3">
+    <div class="title3">Women's Rayon Gold Printed Kurta and Pant Set</div>
+    <div class="p1249">₹1249/-</div>
+    <div class="p2500">₹2500/-</div>
+    <div class="Off3">50% off</div>
+    <div class="SpecialPrice3">Special price</div>
+    <img class="img3" src="{% static 'images/Nitya_menon.png' %}" />
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

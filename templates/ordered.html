@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Placed successfully</title>
+    <link rel="stylesheet" href="{% static 'css/ordered.css' %}">
+</head>
+<body>
+    <div class="Header">
+        <div class="FashionWorld">🗺︎FASHION WORLD</div>
+    </div>
+    <img class="verify" src="{% static 'images/verify.png' %}">
+    <div class="cong">CONGRATULATIONS</div>
+    <div class="caption">Your Order is Successfully Placed</div>
+    <form action="home" method="post">
+        {% csrf_token %}
+        <button class="home">
+            <div class="gohome">Go to Home</div>
+        </button>
+    </form>
+</body>
+</html>

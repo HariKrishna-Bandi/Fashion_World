@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/homepage.css' %}" rel="stylesheet">
+    <title>Fashion World</title>
+</head>
+<body>
+<div class="Homepage">
+  <div class="caption">Elevate Your Style: Where Fashion Meets Imagination</div>
+  <form action="productpage" method="post">
+    {% csrf_token %}
+      <button class="Button">
+        <div class="BrowseOurShop">Browse our shop</div>
+      </button>
+  </form>
+  <div class="paragraph">At Fashion world, <br/>we believe that style is an art form, a means of self-expression that transcends trends and seasons. We're passionate about empowering individuals to embrace their uniqueness and make a statement with their clothing choices. We believe in the power of fashion to boost confidence, ignite creativity, and foster a sense of belonging. Our mission is to curate a diverse and inclusive selection of clothing, accessories, and styling tips that cater to every taste, body type, and personality. We're here to inspire you to explore, experiment, and define your own fashion narrative. Welcome to a world where we celebrate the beautiful diversity of style and fashion that makes each person one of a kind.</div>
+  <div class="WhatWeBelieve">WHAT WE BELIEVE</div>
+  <div class="Header">
+    <div class="FashionWorld">🗺︎FASHION WORLD</div>
+
+    <form action="productpage" method="post">
+      {% csrf_token %}
+      <button class="ShopButton">
+        <div class="Shop">Shop</div>
+      </button>
+    </form>
+
+    <div class="WhoWeAre">Who we are</div>
+    <div class="MyProfile" style="">My profile</div>
+
+    <form action="cartpage" method="post">
+      {% csrf_token %}
+      <button class="CartButton">
+        <div class="Cart3">🛒Cart (3)</div>
+      </button>
+    </form>
+
+  </div>
+  <div class="CasualWear">
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Casual</span>
+    <span style="color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word"> </span>
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Wear</span>
+  </div>
+  <div class="TraditionalWear">
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Traditional</span>
+    <span style="color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word"> </span>
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Wear</span>
+  </div>
+  <div class="KidsWear">
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Kids</span>
+    <span style="color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 20.80px; word-wrap: break-word"> </span>
+    <span style="color: black; font-size: 32px; font-family: Inter; font-weight: 400; line-height: 41.60px; word-wrap: break-word">Wear</span>
+  </div>
+  <img class="img1" style="width: 434px; height: 520px; top: 561px; left: 750px; position: absolute; transform: rotate(0deg); transform-origin: 0 0" src="{% static 'images/nivetha.jpg' %}" />
+  <img class="img2" src="{% static 'images/home_man.jpg' %}" />
+  <img class="img3" src="{% static 'images/home_kids.webp' %}" />
+</div>
+</body>
+</html>

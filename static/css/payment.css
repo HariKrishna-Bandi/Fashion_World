@@ -1,0 +1,127 @@
+.Header {
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.FashionWorld {
+    width: 297px;
+    height: 40px;
+    left: 99px;
+    top: 25px;
+    position: absolute;
+    color: #111110;
+    font-size: 30px;
+    font-family: Monomaniac One;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.caption {
+    width: 500px;
+    height: 50px;
+    top: 140px;
+    left: 570px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Monomaniac One;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.cards {
+    width: 700px;
+    height: 75px;
+    left: 400px;
+    top: 200px;
+    position: absolute;
+    background: #F4F6F6;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 5px #B3B6B7 solid
+}
+
+.rad1 , .rad2 , .rad3 {
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 250px;
+    position: absolute;
+    background: black;
+}
+
+.cardname, .pp, .upi1 {
+    top: 25px;
+    left: 300px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.upiapp {
+    width: 700px;
+    height: 75px;
+    left: 400px;
+    top: 300px;
+    position: absolute;
+    background: #F4F6F6;
+    border-style: solid;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 5px #B3B6B7 solid
+}
+
+.upi {
+    width: 700px;
+    height: 75px;
+    left: 400px;
+    top: 400px;
+    position: absolute;
+    background: #F4F6F6;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 5px #B3B6B7 solid
+}
+
+.placebtn, .backbtn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 16px;
+    width: 350px;
+    position: absolute;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 112px;
+    display: inline-flex
+}
+
+.place, .goback {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.placebtn {
+    left: 400px;
+    top: 500px;
+}
+
+.backbtn {
+    left: 760px;
+    top: 500px
+}
