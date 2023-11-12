@@ -12,20 +12,20 @@
         <div class="FashionWorld">🗺︎FASHION WORLD</div>
     </div>
     <div class="caption">Choose method of payment</div>
-    <div class="cards">
-        <input type="radio" class="rad1" name="deb">
-        <div class="cardname">Debit/Credit Card</div>
-    </div>
-    <div class="upiapp">
-        <input type="radio" class="rad2" name="app">
-        <div class="pp">Phone pay/ Google Pay/ Paytm</div>
-    </div>
-    <div class="upi">
-        <input type="radio" class="rad3" name="upi">
-        <div class="upi1">UPI</div>
-    </div>
     <form action="orderedpage" method="post">
         {% csrf_token %}
+        <div class="cards">
+            <input type="radio" class="rad1" name="pay">
+            <div class="cardname">Debit/Credit Card</div>
+        </div>
+        <div class="upiapp">
+            <input type="radio" class="rad2" name="pay">
+            <div class="pp">Phone pay/ Google Pay/ Paytm</div>
+        </div>
+        <div class="upi">
+            <input type="radio" class="rad3" name="pay">
+            <div class="upi1">UPI</div>
+        </div>
         <button class="placebtn">
             <div class="place">Place Your Order</div>
         </button>
